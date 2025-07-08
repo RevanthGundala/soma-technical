@@ -76,3 +76,4 @@ Thanks for your time and effort. We'll be in touch soon!
 - **Dependency Graph Visualization:** A dependency graph is generated and displayed using Mermaid.js. The graph visualizes the relationships between tasks, and the tasks on the critical path are highlighted.
 
 # soma-technical
+# soma-technical
