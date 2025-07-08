@@ -56,7 +56,7 @@ Thanks for your time and effort. We'll be in touch soon!
 
 ## Solution
 
-![Solution Screenshot](./assets/soma.png)
+![Solution Screenshot](./assets/soma.PNG)
 
 ### Part 1: Due Dates
 - **Due Date Picker:** A date input has been added to the task creation form, allowing users to select a due date for new tasks.
@@ -74,7 +74,3 @@ Thanks for your time and effort. We'll be in touch soon!
 - **Critical Path Calculation:** The application calculates the critical path of the project, which is the longest sequence of dependent tasks.
 - **Earliest Start Date:** The earliest possible start day for each task is calculated and displayed, based on its dependencies.
 - **Dependency Graph Visualization:** A dependency graph is generated and displayed using Mermaid.js. The graph visualizes the relationships between tasks, and the tasks on the critical path are highlighted.
-
-# soma-technical
-# soma-technical
-# soma-technical
