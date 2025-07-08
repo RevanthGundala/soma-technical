@@ -53,3 +53,26 @@ Implement a task dependency system that allows tasks to depend on other tasks. T
 3. Submit a link to your repository in the application form.
 
 Thanks for your time and effort. We'll be in touch soon!
+
+## Solution
+
+![Solution Screenshot](./assets/soma.png)
+
+### Part 1: Due Dates
+- **Due Date Picker:** A date input has been added to the task creation form, allowing users to select a due date for new tasks.
+- **Display Due Dates:** The task list now displays the due date for each task.
+- **Overdue Highlighting:** If a task's due date is in the past, it is highlighted in red to draw attention to it.
+
+### Part 2: Image Generation
+- **Pexels API Integration:** The application is integrated with the Pexels API to fetch images related to the task's title.
+- **Automatic Image Fetching:** When a new task is created, an image is automatically fetched from Pexels and associated with the task.
+- **Image Display:** The fetched image is displayed within the task item in the list, providing a visual representation of the task.
+
+### Part 3: Task Dependencies
+- **Dependency Management:** Users can now define dependencies between tasks. A task can have multiple dependencies on other tasks.
+- **Circular Dependency Prevention:** A check has been implemented to prevent users from creating circular dependencies (e.g., Task A depends on Task B, and Task B depends on Task A).
+- **Critical Path Calculation:** The application calculates the critical path of the project, which is the longest sequence of dependent tasks.
+- **Earliest Start Date:** The earliest possible start day for each task is calculated and displayed, based on its dependencies.
+- **Dependency Graph Visualization:** A dependency graph is generated and displayed using Mermaid.js. The graph visualizes the relationships between tasks, and the tasks on the critical path are highlighted.
+
+# soma-technical
